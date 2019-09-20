@@ -1,0 +1,32 @@
+*{
+    transition: 1000ms linear ;
+}
+.sidebars{
+ 
+   width: 15%;
+    height: 200vh;
+    background: red;
+    overflow: hidden;
+
+}
+.margin{
+    min-height: calc(100vh - 70px);
+}
+@media(max-width:576px){
+    .sidebars{
+        width: 35%;
+    }
+
+}
+@media(max-width:768px){
+    .sidebars{
+        width: 29%;
+    }
+
+}
+.page-wrapper{
+    min-height: calc(100vh - 70px);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 60px;
+}

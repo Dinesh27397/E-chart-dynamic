@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha256-piqEf7Ap7CMps8krDQsSOTZgF+MU/0MPyPW2enj5I40=" crossorigin="anonymous" />
+      <title>DASHBOARD-2</title>
+   </head>
+   <body>
+      <div class=" bg-success">
+         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark w-100 ">
+            <a class="navbar-brand " href="#" id='navbar'><img src="logo-light-icon.png"> <span id="text1">DASHBOARD-2</span></a>
+            <a class="text-white border p-2  d-block d-md-none click" href="#" id="toggle-button1"><i class="fas fa-bars"></i><span class="sr-only">(current)</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link  d-none d-md-block click" href="#" id="toggle-button"><i class="fas fa-bars"></i><span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Dropdown
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link disabled" href="#">Disabled</a>
+                  </li>
+               </ul>
+               <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+               </form>
+            </div>
+         </nav>
+      </div>
+  
+    <div class=" container-fluid page-wrapper">
+      <div class="row no-gutters">
+         <div class="col-4 col-md-2" >
+            <div class="sidebars  d-md-block position-fixed w-10  bg-primary" id="sidebar">
+               <div class="profile-pic">
+                  <ul class="nav flex-column position-fixed">
+                     <li class="nav-item">
+                        <a class="nav-link active text-white" href="#"><i class="fas fa-tachometer-alt"></i> <span class=" texthide">DASHBOARD</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#">
+                           <i class="fas fa-tv"></i>
+                           <span6 class="texthide p-1">
+                           DASHBOARD1</span>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fas fa-ghost"></i><span class="texthide p-1">Apps</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="fas fa-envelope"></i><span class=" texthide p-1">MailBox</span ></a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="col-8 col-md-10">
+            <div class="container-fluid ">
+               <div class="row">
+                  <div class="col-md-4  col-12 col-sm-12">
+                     <div class="card bg-white shadow-lg w-100 mt-5 ">
+                        <h2>
+                           <div id="main" style="width:auto; height:300px;"></div>
+                        </h2>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-12 col-sm-12">
+                     <div class="card bg-white shadow-lg w-100 mt-5">
+                        <h2>
+                           <div id="main2" style="width:auto; height:300px;"></div>
+                        </h2>
+                     </div>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-12">
+                      <div class="card bg-white shadow-lg w-100 mt-5 ">
+                         <h2>
+                            <div id="main3" style="width:auto; height:300px;"></div>
+                         </h2>
+                      </div>
+                   </div>
+               </div>
+               <div class="row ">
+                  <div class="col-md-4 mt-3">
+                     <div class="card bg-white shadow-lg w-100 mt-5 ">
+                        <h2>
+                           <div id="main4" style="width:auto; height:300px;"></div>
+                        </h2>
+                     </div>
+                  </div>
+                  <div class="col-md- mt-3">
+                     <div class="card bg-white shadow-lg w-100 mt-5 ">
+                        <h2>
+                           <div id="main5" style="width:auto; height:300px;"></div>
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
+     
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.3.0/echarts-en.common.js" integrity="sha256-1cSbMmHM/mglZwI1g59J6fA2ahwAaZayKxob0keiU1Y=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.3.0/echarts-en.min.js" integrity="sha256-1cSbMmHM/mglZwI1g59J6fA2ahwAaZayKxob0keiU1Y=" crossorigin="anonymous"></script>
+      <script src="main.js"></script>
+   </body>
+</html>
